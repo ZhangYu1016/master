@@ -6,3 +6,5 @@
 第六行
 第七行
 第八行
+dev add
+master add
