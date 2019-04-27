@@ -41,8 +41,7 @@ public class ParseXml {
             while (it.hasNext()) {
             	Element book = (Element) it.next();
             	//判断是否使用注解编程
-            	if(ContextLoader.COMPONENT_SCAN.equals(book.getName()) && 
-            			ContextLoader.ANNOTATION_DRIVER.equals(book.getName())) {
+            	if(ContextLoader.COMPONENT_SCAN.equals(book.getName())) {
             		if(book.attributeValue(ContextLoader.CONFIG_BASE_PACKAGE) != null) {
             			String packageValue = book.attributeValue(ContextLoader.CONFIG_BASE_PACKAGE).replaceAll(" ", "");;
             			if(packageValue.endsWith(".*")) {
