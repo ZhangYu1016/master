@@ -1,6 +1,6 @@
 package com.factory;
 
-public interface BaseBeanFactory {
+public interface BeanFactory {
 
 	<T> T getBean(String name, Class<T> requiredType);
 	

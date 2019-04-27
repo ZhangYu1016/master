@@ -3,7 +3,7 @@ package com.factory;
 import java.util.HashMap;
 import java.util.Map;
 
-public abstract class BaseAbstractBeanFactory implements BaseBeanFactory {
+public abstract class AbstractBeanFactory implements BeanFactory {
 
 	
 	private static final Map<String, Object> beans = new HashMap<String, Object>();

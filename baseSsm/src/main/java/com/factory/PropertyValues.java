@@ -1,12 +1,12 @@
 package com.factory;
 
-public class BasePropertyValues {
+public class PropertyValues {
 
 	private final String name;
 
 	private final Object value;
 	
-	public BasePropertyValues(String name, Object value) {
+	public PropertyValues(String name, Object value) {
 		this.name = name;
 		this.value = value;
 	}
