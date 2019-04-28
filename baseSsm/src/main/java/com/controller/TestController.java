@@ -4,7 +4,7 @@ import com.annotation.Controller;
 import com.annotation.RequestMapping;
 import com.annotation.RequestParam;
 
-@Controller("testController")
+@Controller
 @RequestMapping("/test")
 public class TestController {
 

@@ -13,13 +13,17 @@ public class ContextLoader {
 	//自动扫描包的标签
 	public static final String COMPONENT_SCAN = "component-scan";
 	//自动扫描包的标签
+	public static final String ADAPTERS_PACKAGE = "com.handler";
+	//是否是注解对象，用来解析
+	public static final String ISANNOTATION = "0";
+	//自动扫描包的标签
 	public static final String ANNOTATION_DRIVER = "annotation-driven";
 	public static final String CLASS_PATH_PREFIX = "classpath:";
 	public static final String CLASS_PATH_FOLDER = "\\WEB-INF\\classes\\";
 	public static final String CLASS_SUFFIX = ".class";
 	//方法参数Param类型
 	public static final String REQUESTPARAM = "RequestParam";
-	//类对象，用来判断对象是否已经存在
+	//类对象，通过注解value值来判断对象是否已经存在
 	public static final Map<String, Object> OBJ_MAP = new ConcurrentHashMap<String, Object>();
 	//方法所属类MAP
 	public static final Map<String, Object> METHOD_OF_OBJ_MAP = new ConcurrentHashMap<String, Object>();

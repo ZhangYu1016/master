@@ -3,7 +3,7 @@ package com.controller;
 import com.annotation.Controller;
 import com.annotation.RequestMapping;
 
-@Controller("testController2")
+@Controller
 @RequestMapping("/test2")
 public class TestController2 {
 
