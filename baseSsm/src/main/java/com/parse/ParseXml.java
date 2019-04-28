@@ -5,7 +5,8 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 import java.util.Iterator;
-import javax.servlet.ServletConfig;
+
+import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
@@ -15,9 +16,14 @@ import com.annotation.RequestParam;
 import com.context.ContextLoader;
 import com.context.ExceptionConstant;
 import com.exception.AppExcption;
+import com.handler.HandlerAdapter;
+import com.sevlet.DispatcherServlet;
+import com.util.BeanUtil;
 
 public class ParseXml {
 
+	private static Logger log = Logger.getLogger(ParseXml.class.getClass());
+	
 	private static Document document = null;
 	private static SAXReader reader = null;
 	private static File file = null;
@@ -28,9 +34,9 @@ public class ParseXml {
 		}
 	}
 	
-	public synchronized static void parseXml(String dirPath, ServletConfig config) {
-		
+	public synchronized static void parseXml(String dirPath) {
 		try {
+			BeanUtil.setServletConfig(BeanUtil.getServletConfig());
 			file = new File(dirPath);
 			document = reader.read(file);
 			Element element = document.getRootElement();
@@ -45,11 +51,11 @@ public class ParseXml {
             		if(book.attributeValue(ContextLoader.CONFIG_BASE_PACKAGE) != null) {
             			String packageValue = book.attributeValue(ContextLoader.CONFIG_BASE_PACKAGE).replaceAll(" ", "");;
             			if(packageValue.endsWith(".*")) {
-            				packageValue = config.getServletContext().getRealPath("/")+
+            				packageValue = BeanUtil.getServletConfig().getServletContext().getRealPath("/")+
             						ContextLoader.CLASS_PATH_FOLDER+
             						packageValue.substring(0, packageValue.length() - ".*".length());
             			}
-            			String realPath = config.getServletContext().getRealPath("/");
+            			String realPath = BeanUtil.getServletConfig().getServletContext().getRealPath("/");
             			realPath = realPath.substring(0, realPath.length()-1);
             			initBeans(packageValue, realPath);
             		}
@@ -90,14 +96,19 @@ public class ParseXml {
 //								className = f.getParent()+"\\"+className;
 							className = (f.getPath()).substring((realPath+ContextLoader.CLASS_PATH_FOLDER).length());
 							className = className.substring(0,className.length() - ContextLoader.CLASS_SUFFIX.length());
-							setHandlerMapping(className);
+							className = className.replaceAll("\\\\", ".");
+							if(!className.contains(ContextLoader.ADAPTERS_PACKAGE)) {
+								setHandlerMapping(className);
+							}else if(className.contains(ContextLoader.ADAPTERS_PACKAGE)){
+								setHandlerAdapter(className);
+							}
 						}
 					}
 				}else {
-					System.out.println(file.getName()+"文件夹为空");
+					log.info(file.getName()+"文件夹为空");
 				}
 			}else {
-				System.out.println("文件夹不存在");
+				log.info("文件夹不存在");
 			}
 		} catch (Exception e) {
 			//抛出单例异常
@@ -111,13 +122,29 @@ public class ParseXml {
 	}
 	
 	//判断类上面是否有Controller与RequestMapping注解,如果有则创建对象并放到BaseHandlerMapping对象
+	public synchronized static <T> void setHandlerAdapter(String className) {
+		try {
+			className = className.replaceAll("\\\\", ".");
+			@SuppressWarnings("unchecked")
+			String classPath = BeanUtil.getServletConfig().getServletContext().getRealPath("/");
+			Class<T> t = (Class<T>) Class.forName(className);
+			if(!t.isInterface()) {
+				HandlerAdapter adapter = (HandlerAdapter) t.newInstance();
+				DispatcherServlet.adapters.add(adapter);
+				log.info("成功添加适配器对象成功:");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	//判断类上面是否有Controller与RequestMapping注解,如果有则创建对象并放到BaseHandlerMapping对象
 	public synchronized static <T> void setHandlerMapping(String className) {
 		Object o = null;
 		boolean isController = false;
 		String controllerValue = "";
 		String controllerMappingValue = "";
 		try {
-			className = className.replaceAll("\\\\", ".");
 			@SuppressWarnings("unchecked")
 			Class<T> t = (Class<T>) Class.forName(className);
 			if(!t.isAnnotation()) {
@@ -127,6 +154,10 @@ public class ParseXml {
 					for(Annotation ab : as) {
 						if(ab instanceof Controller) {
 							controllerValue = ((Controller) ab).value();
+							if(controllerValue.equals("")) {
+								controllerValue = lowerFirdt(t.getSimpleName());
+								log.info("注解上没有赋值则使用类名首字母小写:"+controllerValue);
+							}
 							isController = true;
 						}
 						if(ab instanceof RequestMapping) {
@@ -138,7 +169,7 @@ public class ParseXml {
 						//判断类是否已存在
 						Object controllerObj = ContextLoader.OBJ_MAP.get(controllerValue);
 						if(controllerObj == null) {
-							System.out.println(controllerValue);
+							log.info(controllerValue);
 							o = t.newInstance();
 							//存储
 							ContextLoader.OBJ_MAP.put(controllerValue, o);
@@ -194,8 +225,20 @@ public class ParseXml {
 		}
 		return o;
 	}
+	//首字母小写
+	public static String lowerFirdt(String str) {
+		
+		char[] c = str.toCharArray();
+		c[0]+=32;
+		return String.valueOf(c);
+	}
 	
 	public synchronized static <T> void setMethodRequestParams(String className, String controllerKey) {
 		
+	}
+	
+	public static void main(String[] args) {
+		
+		log.info("com.handler.Test.class".contains("com.handler"));
 	}
 }

@@ -16,4 +16,8 @@ public class SimpleControllerhandlerAdapter implements HandlerAdapter {
 		//Ö´ÐÐ·½·¨
 	}
 
+	public String getName() {
+		return this.getName();
+	}
+
 }
