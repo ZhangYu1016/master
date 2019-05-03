@@ -5,8 +5,10 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 import java.util.Iterator;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.logging.Logger;
 
-import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
@@ -17,13 +19,11 @@ import com.context.ContextLoader;
 import com.context.ExceptionConstant;
 import com.exception.AppExcption;
 import com.handler.HandlerAdapter;
-import com.sevlet.DispatcherServlet;
 import com.util.BeanUtil;
 
 public class ParseXml {
 
-	private static Logger log = Logger.getLogger(ParseXml.class.getClass());
-	
+	private static Logger log = Logger.getLogger("lavasoft");
 	private static Document document = null;
 	private static SAXReader reader = null;
 	private static File file = null;
@@ -97,11 +97,7 @@ public class ParseXml {
 							className = (f.getPath()).substring((realPath+ContextLoader.CLASS_PATH_FOLDER).length());
 							className = className.substring(0,className.length() - ContextLoader.CLASS_SUFFIX.length());
 							className = className.replaceAll("\\\\", ".");
-							if(!className.contains(ContextLoader.ADAPTERS_PACKAGE)) {
-								setHandlerMapping(className);
-							}else if(className.contains(ContextLoader.ADAPTERS_PACKAGE)){
-								setHandlerAdapter(className);
-							}
+							setHandlerMapping(className);
 						}
 					}
 				}else {
@@ -125,13 +121,13 @@ public class ParseXml {
 	public synchronized static <T> void setHandlerAdapter(String className) {
 		try {
 			className = className.replaceAll("\\\\", ".");
-			@SuppressWarnings("unchecked")
-			String classPath = BeanUtil.getServletConfig().getServletContext().getRealPath("/");
 			Class<T> t = (Class<T>) Class.forName(className);
 			if(!t.isInterface()) {
 				HandlerAdapter adapter = (HandlerAdapter) t.newInstance();
-				DispatcherServlet.adapters.add(adapter);
+				ContextLoader.adapters.add(adapter);
 				log.info("成功添加适配器对象成功:");
+			}else {
+				System.out.println("是适配器接口"+t.getName());
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -156,7 +152,7 @@ public class ParseXml {
 							controllerValue = ((Controller) ab).value();
 							if(controllerValue.equals("")) {
 								controllerValue = lowerFirdt(t.getSimpleName());
-								log.info("注解上没有赋值则使用类名首字母小写:"+controllerValue);
+								log.info("注解上没有赋值则使用类名首字母小写:["+controllerValue+"]");
 							}
 							isController = true;
 						}
@@ -169,7 +165,6 @@ public class ParseXml {
 						//判断类是否已存在
 						Object controllerObj = ContextLoader.OBJ_MAP.get(controllerValue);
 						if(controllerObj == null) {
-							log.info(controllerValue);
 							o = t.newInstance();
 							//存储
 							ContextLoader.OBJ_MAP.put(controllerValue, o);
@@ -210,12 +205,14 @@ public class ParseXml {
 					//获取参数注解
 					Parameter[] paramMehod = method.getParameters();
 					if(paramMehod.length > 0 && paramMehod != null) {
+						//参数位置
+						Map<String, Integer> FILED_SPLACE_MAP = new ConcurrentHashMap<String, Integer>();
 						for(Parameter param : paramMehod) {
 							RequestParam requestParam = param.getAnnotation(RequestParam.class);
-							//参数位置
-							ContextLoader.FILED_SPLACE_MAP.put(requestParam.value(), index++);
+							FILED_SPLACE_MAP.put(requestParam.value(), index++);
+							log.info("为["+t.getName()+"]对象方法["+method.getName()+"]参数["+requestParam.value()+"]赋下标");
 							//把参数位置map赋值到方法参数map中,方便后续请求找到方法及参数
-							ContextLoader.METHOD_FILED_MAP.put(controllerMappingAndMehodMapping, ContextLoader.FILED_SPLACE_MAP);
+							ContextLoader.METHOD_FILED_MAP.put(controllerMappingAndMehodMapping, FILED_SPLACE_MAP);
 						}
 					}
 				}
@@ -235,10 +232,5 @@ public class ParseXml {
 	
 	public synchronized static <T> void setMethodRequestParams(String className, String controllerKey) {
 		
-	}
-	
-	public static void main(String[] args) {
-		
-		log.info("com.handler.Test.class".contains("com.handler"));
 	}
 }
