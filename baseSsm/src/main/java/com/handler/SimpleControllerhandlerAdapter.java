@@ -1,6 +1,7 @@
 package com.handler;
 
 import com.annotation.Controller;
+import com.suport.ModelAndView;
 
 public class SimpleControllerhandlerAdapter implements HandlerAdapter {
 
@@ -11,13 +12,9 @@ public class SimpleControllerhandlerAdapter implements HandlerAdapter {
 		return false;
 	}
 
-	public void handle(Object handler) {
+	public ModelAndView handle(Object handler, String[] s) {
 		
 		//Ö´ÐÐ·½·¨
+		return null;
 	}
-
-	public String getName() {
-		return this.getName();
-	}
-
 }

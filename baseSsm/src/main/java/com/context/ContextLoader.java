@@ -1,8 +1,12 @@
 package com.context;
 
 import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+import com.handler.HandlerAdapter;
 
 public class ContextLoader {
 
@@ -16,6 +20,8 @@ public class ContextLoader {
 	public static final String ADAPTERS_PACKAGE = "com.handler";
 	//是否是注解对象，用来解析
 	public static final String ISANNOTATION = "0";
+	//
+	public final static List<HandlerAdapter> adapters = new ArrayList<HandlerAdapter>();
 	//自动扫描包的标签
 	public static final String ANNOTATION_DRIVER = "annotation-driven";
 	public static final String CLASS_PATH_PREFIX = "classpath:";

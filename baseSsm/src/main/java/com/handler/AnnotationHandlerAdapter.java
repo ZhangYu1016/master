@@ -8,8 +8,7 @@ import java.util.Set;
 
 import com.annotation.Controller;
 import com.context.ContextLoader;
-import com.sevlet.DispatcherServlet;
-import com.util.BeanUtil;
+import com.suport.ModelAndView;
 
 public class AnnotationHandlerAdapter implements HandlerAdapter {
 
@@ -21,7 +20,7 @@ public class AnnotationHandlerAdapter implements HandlerAdapter {
 		return false;
 	}
 
-	public void handle(Object handler) {
+	public ModelAndView handle(Object handler, String[] s) {
 		Map<String, Object> map = ContextLoader.METHOD_OF_OBJ_MAP;
 		Set<Entry<String, Object>> set = map.entrySet();
 		String methodKey = null;
@@ -32,7 +31,7 @@ public class AnnotationHandlerAdapter implements HandlerAdapter {
 		}
 		Method m = ContextLoader.METHOD_OBJ_MAP.get(methodKey);
 		try {
-			m.invoke(handler, "ce1", "ce2");
+			m.invoke(handler, s);
 		} catch (IllegalAccessException e) {
 			e.printStackTrace();
 		} catch (IllegalArgumentException e) {
@@ -40,10 +39,6 @@ public class AnnotationHandlerAdapter implements HandlerAdapter {
 		} catch (InvocationTargetException e) {
 			e.printStackTrace();
 		}
-		
-	}
-
-	public String getName() {
-		return this.getName();
+		return null;
 	}
 }
