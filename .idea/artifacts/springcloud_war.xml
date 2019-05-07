@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloud:war">
+    <output-path>$PROJECT_DIR$/eurekaServer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springcloud</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="eurekaServer-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springcloud:war exploded" />
+    </root>
+  </artifact>
+</component>
