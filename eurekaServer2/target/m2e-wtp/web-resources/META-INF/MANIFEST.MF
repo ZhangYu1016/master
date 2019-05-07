@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: springCloudServer2 Maven Webapp
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: zhangyu
+Built-By: bryant8885
 Implementation-Vendor-Id: com
 Build-Jdk: 1.8.0_102
 Implementation-URL: http://maven.apache.org
