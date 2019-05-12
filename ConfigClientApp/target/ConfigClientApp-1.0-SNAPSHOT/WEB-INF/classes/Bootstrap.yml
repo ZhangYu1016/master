@@ -1,0 +1,21 @@
+server:
+  port: 8961
+spring:
+  application:
+    name: eurekaClient
+  cloud:
+    config:
+      uri: http://localhost:8861/    		        #config server 端地址
+      profile: eurekaServer1                                    #项目配置文件选择
+      label: master                                     #git仓库的分支
+      discovery:
+        enabled: true
+        service-id: config-client1                       #config-server服务名称
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+security:                                #
+  basic:
+    enabled: false

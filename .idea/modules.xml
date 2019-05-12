@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" filepath="$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaClient/eureka.iml" filepath="$PROJECT_DIR$/eurekaClient/eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaClient/eureka.iml" filepath="$PROJECT_DIR$/eurekaClient/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/repsitory.iml" filepath="$PROJECT_DIR$/.idea/repsitory.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaServer2/springCloudServer2.iml" filepath="$PROJECT_DIR$/eurekaServer2/springCloudServer2.iml" />

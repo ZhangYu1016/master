@@ -1,0 +1,35 @@
+server:
+  port: 8861
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: configServer1
+  cloud:                                                  #config服务端，从git拉取数据
+    config:
+      server:
+        git:
+          uri: https://github.com/ZhangYu1016/configServer
+          search-paths: /*
+          username: 1040601138@qq.com
+          password: yu159456
+      label: master
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  instance:
+    hostname: configServer1
+  client:
+    serviceUrl:
+      defaultZone: http://server1:8761/eureka/,http://server2:8762/eureka/,http://server3:8763/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+security:
+  basic:
+    enabled: false
