@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="springCloudServer3-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="eurekaServer3-0.0.1-SNAPSHOT.war">
       <element id="artifact" artifact-name="springCloudServer3:war exploded" />
     </root>
   </artifact>

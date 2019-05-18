@@ -7,13 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springCloudServer2" />
-        <module name="springCloudServer3" />
+        <module name="ConfigClientApp" />
+        <module name="eureka" />
         <module name="ConfigServerApp" />
         <module name="eurekaServer" />
-        <module name="eureka" />
+        <module name="springCloudServer3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ConfigClientApp" target="1.7" />
       <module name="ConfigServerApp" target="1.7" />
       <module name="eureka" target="1.8" />
       <module name="eurekaServer" target="1.8" />
@@ -24,6 +26,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigClientApp" options="-parameters" />
+      <module name="ConfigServerApp" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="springCloudServer2" options="-parameters" />

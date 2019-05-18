@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ConfigClientApp" />
     <file type="web" url="file://$PROJECT_DIR$/ConfigServerApp" />
     <file type="web" url="file://$PROJECT_DIR$/eurekaClient" />
     <file type="web" url="file://$PROJECT_DIR$/eurekaServer" />
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/eurekaClient/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigServerApp/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigClientApp/pom.xml" />
       </list>
     </option>
   </component>

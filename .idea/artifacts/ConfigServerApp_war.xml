@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="ConfigServerApp.war">
+    <root id="archive" name="ConfigServerApp-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ConfigServerApp:war exploded" />
     </root>
   </artifact>
