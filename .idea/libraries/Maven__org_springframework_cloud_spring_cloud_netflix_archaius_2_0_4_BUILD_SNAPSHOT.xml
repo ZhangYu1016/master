@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-netflix-archaius:2.0.4.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../apache-maven-3.5.0/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.4.BUILD-20190514.120020-651.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../apache-maven-3.5.0/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.4.BUILD-20190514.120020-651-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../apache-maven-3.5.0/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.4.BUILD-20190514.120020-651-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

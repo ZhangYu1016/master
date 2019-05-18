@@ -1,0 +1,33 @@
+server:
+  port: 8961
+spring:
+  application:
+    name: configClient
+  cloud:
+    config:
+      uri: http://localhost:8861/
+      label: master
+      #fail-fast: true
+      discovery:
+        service-id: config
+        enabled: true
+    bus:
+      refresh:
+        enabled: true
+      #username: user
+      #password: 123456
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://server1:8761/eureka/
+      #,http://server2:8762/eureka/,http://server3:8763/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

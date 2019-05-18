@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" filepath="$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" filepath="$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaClient/eureka.iml" filepath="$PROJECT_DIR$/eurekaClient/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/repsitory.iml" filepath="$PROJECT_DIR$/.idea/repsitory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServer2/springCloudServer2.iml" filepath="$PROJECT_DIR$/eurekaServer2/springCloudServer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServer3/springCloudServer3.iml" filepath="$PROJECT_DIR$/eurekaServer3/springCloudServer3.iml" />
+    </modules>
+  </component>
+</project>
