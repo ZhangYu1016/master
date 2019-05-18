@@ -9,21 +9,12 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+@EnableDiscoveryClient
 @SpringBootApplication
-@RefreshScope
-@EnableEurekaClient
-@RestController
 public class ConfigConfigApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ConfigConfigApplication.class, args);
-    }
-    @Value("${test}") // git配置文件里的key
-    String myww;
-
-    @RequestMapping(value = "/hi")
-    public String hi(){
-        return myww;
     }
 
 }

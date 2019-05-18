@@ -2,20 +2,32 @@ server:
   port: 8961
 spring:
   application:
-    name: eurekaClient
+    name: configClient
   cloud:
     config:
-      uri: http://localhost:8861/    		        #config server 端地址
-      profile: eurekaServer1                                    #项目配置文件选择
-      label: master                                     #git仓库的分支
+      uri: http://localhost:8861/
+      label: master
+      #fail-fast: true
       discovery:
+        service-id: config
         enabled: true
-        service-id: config-server                       #config-server服务名称
-rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
-security:                                #
-  basic:
-    enabled: false
+    bus:
+      refresh:
+        enabled: true
+      #username: user
+      #password: 123456
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://server1:8761/eureka/
+      #,http://server2:8762/eureka/,http://server3:8763/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
