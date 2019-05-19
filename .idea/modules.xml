@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" filepath="$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" filepath="$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHeapTest/JavaHeapTest.iml" filepath="$PROJECT_DIR$/JavaHeapTest/JavaHeapTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/repository.iml" filepath="$PROJECT_DIR$/.idea/repository.iml" />
     </modules>
