@@ -1,32 +1,449 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d51e39d-8aab-4547-b77b-a74ce4523ab9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="73f4982b-bf58-4fd7-8f6f-89cedf7cba96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ConfigClientApp_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ConfigClientApp_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ConfigServerApp_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ConfigServerApp_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/eurekaServer_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/eurekaServer_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_11_0_201803080745_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_4_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_4_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/repository.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/src/main/java/com/client/ConfigConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/src/main/java/com/client/controller/MessageRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/src/main/resource/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/target/classes/Bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/target/classes/com/client/ConfigConfigApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClientApp/target/classes/com/client/controller/MessageRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServerApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServerApp/src/main/java/com/server/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServerApp/src/main/resourse/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServerApp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServerApp/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServerApp/target/classes/com/server/ConfigServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaClient/eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/springCloudServer2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/m2e-wtp/web-resources/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/classes/com/server/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/HdrHistogram-2.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/LatencyUtils-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/antlr-runtime-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/archaius-core-0.7.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.60.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.60.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/commons-configuration-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/commons-jxpath-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/commons-math-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/compactmap-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/dexx-collections-0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/eureka-client-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/eureka-core-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/freemarker-2.3.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/guava-16.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/guice-4.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.11.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/httpclient-4.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/httpcore-4.4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/hystrix-core-1.5.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-dataformat-xml-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-apache-client4-1.19.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-client-1.19.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-core-1.19.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-server-1.19.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-servlet-1.19.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jettison-1.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/joda-time-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jsr305-3.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jsr311-api-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/micrometer-core-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/netflix-commons-util-0.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/netflix-eventbus-0.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/netflix-infix-0.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/netflix-statistics-0.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/ribbon-2.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/ribbon-core-2.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/ribbon-eureka-2.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/ribbon-httpclient-2.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/ribbon-loadbalancer-2.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/ribbon-transport-2.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/rxjava-1.3.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/rxnetty-0.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/rxnetty-contexts-0.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/rxnetty-servo-0.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/servo-core-0.12.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-actuator-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-actuator-autoconfigure-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-configuration-processor-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-actuator-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-freemarker-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-commons-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-config-client-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-context-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-archaius-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-core-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-eureka-client-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-eureka-server-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-ribbon-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-config-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-eureka-1.4.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-eureka-server-1.4.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-archaius-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-eureka-client-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-eureka-server-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-ribbon-2.0.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-crypto-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-rsa-1.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/stax-api-1.0-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/stringtemplate-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/woodstox-core-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/woodstox-core-asl-4.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/xmlpull-1.1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/xpp3_min-1.1.4c.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/lib/xstream-1.4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer2/target/springCloudServer2-0.0.1-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer3/springCloudServer3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer3/target/m2e-wtp/web-resources/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSsm/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/baseSsm/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSsm/.project" beforeDir="false" afterPath="$PROJECT_DIR$/baseSsm/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaClient/target/classes/com/server/EurekaClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaClient/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaClient/target/m2e-wtp/web-resources/META-INF/maven/com/eureka/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaClient/target/m2e-wtp/web-resources/META-INF/maven/com/eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/src/main/java/com/server/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/src/main/java/com/server/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/target/classes/com/server/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/target/classes/com/server/EurekaServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/target/m2e-wtp/web-resources/META-INF/maven/com/springcloud/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/target/m2e-wtp/web-resources/META-INF/maven/com/springcloud/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer2/eurekaServer2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer2/eurekaServer2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer2/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer2/target/classes/com/server/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer2/target/classes/com/server/EurekaServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer2/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer2/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer2/target/m2e-wtp/web-resources/META-INF/maven/com/springCloudServer2/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer2/target/m2e-wtp/web-resources/META-INF/maven/com/springCloudServer2/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer3/eurekaServer3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer3/eurekaServer3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer3/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer3/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer3/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer3/target/classes/com/server/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer3/target/classes/com/server/EurekaServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer3/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer3/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer3/target/m2e-wtp/web-resources/META-INF/maven/com/springCloudServer3/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer3/target/m2e-wtp/web-resources/META-INF/maven/com/springCloudServer3/pom.properties" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/baseSsm/target/classes/" />
-    <ignored path="$PROJECT_DIR$/eurekaClient/target/classes/" />
-    <ignored path="$PROJECT_DIR$/eurekaServer/target/classes/" />
-    <ignored path="$PROJECT_DIR$/eurekaServer2/target/classes/" />
-    <ignored path="$PROJECT_DIR$/eurekaServer3/target/classes/" />
+    <ignored path="$PROJECT_DIR$/ConfigServerApp/target/" />
+    <ignored path="$PROJECT_DIR$/eurekaServer/target/" />
+    <ignored path="$PROJECT_DIR$/ConfigClientApp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="83" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConfigClientApp/src/main/resource/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurekaServer/src/main/java/com/server/EurekaServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConfigServerApp/src/main/java/com/server/ConfigServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConfigClientApp/src/main/java/com/client/ConfigConfigApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ConfigServerApp/src/main/resourse/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/ConfigServerApp/src/main/resourse/Bootstrap.yml" />
+        <option value="$PROJECT_DIR$/ConfigServerApp/src/main/resourse/application.yml" />
+        <option value="$PROJECT_DIR$/ConfigClientApp/src/main/java/com/client/ConfigConfigApplication.java" />
+        <option value="$PROJECT_DIR$/ConfigClientApp/src/main/resource/bootstrap.yml" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -35,10 +452,25 @@
         <option name="userSettingsFile" value="C:\computer\maven\maven-3.5\maven-3.5\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ConfigServerApp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ConfigServerApp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -53,20 +485,118 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigClientApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigClientApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigClientApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigClientApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigClientApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigServerApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigServerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigServerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigServerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cmd/git.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ConfigClientApp/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,151 +610,159 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_repository" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56644" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
+  <component name="RunManager" selected="Spring Boot.ConfigConfigApplication">
+    <configuration name="ConfigConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ConfigClientApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.client.ConfigConfigApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ConfigServerApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurekaServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConfigConfigApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d51e39d-8aab-4547-b77b-a74ce4523ab9" name="Default Changelist" comment="" />
-      <created>1558150960107</created>
+      <changelist id="73f4982b-bf58-4fd7-8f6f-89cedf7cba96" name="Default Changelist" comment="" />
+      <created>1558233284590</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558150960107</updated>
-      <workItem from="1558150972640" duration="2821000" />
-      <workItem from="1558231950335" duration="294000" />
+      <updated>1558233284590</updated>
+      <workItem from="1558233288230" duration="3923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3194000" />
+    <option name="totallyTimeSpent" value="3923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22921109" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.329718" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45878524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="7" visible="true" weight="0.28633407" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven" sideWeight="0.498998" visible="true" weight="0.14179105" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" x="827" y="395" width="266" height="249" id="Coverage" sideWeight="0.501002" side_tool="true" type="SLIDING" weight="0.14179105" />
+      <window_info anchor="right" id="Bean Validation" weight="0.14179105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32995737" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/repository$EurekaServerApplication.ic" NAME="EurekaServerApplication Coverage Results" MODIFIED="1558235748637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/repository$ConfigServerApplication.ic" NAME="ConfigServerApplication Coverage Results" MODIFIED="1558235857145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/repository$ConfigConfigApplication.ic" NAME="ConfigConfigApplication Coverage Results" MODIFIED="1558235331602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ConfigServerApp/src/main/resourse/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigServerApp/src/main/resourse/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigClientApp/src/main/resource/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaServer/src/main/java/com/server/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ca2a89e-17b0-42fc-8786-71508c553861/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigClientApp/src/main/java/com/client/ConfigConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigServerApp/src/main/java/com/server/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -238,18 +776,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>eurekaServer</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -261,6 +788,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -282,5 +810,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

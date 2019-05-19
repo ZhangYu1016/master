@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/baseSsm/baseSsm.iml" filepath="$PROJECT_DIR$/baseSsm/baseSsm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaClient/eurekaClient.iml" filepath="$PROJECT_DIR$/eurekaClient/eurekaClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" filepath="$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" filepath="$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaServer2/eurekaServer2.iml" filepath="$PROJECT_DIR$/eurekaServer2/eurekaServer2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaServer3/eurekaServer3.iml" filepath="$PROJECT_DIR$/eurekaServer3/eurekaServer3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/repository.iml" filepath="$PROJECT_DIR$/.idea/repository.iml" />
     </modules>
   </component>
 </project>

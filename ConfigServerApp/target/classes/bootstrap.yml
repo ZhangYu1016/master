@@ -1,0 +1,17 @@
+server:
+  port: 8861
+spring:
+  application:
+    name: configServer1
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ZhangYu1016/configServer.git
+          username: 1040601138@qq.com
+          password: yu159456
+          basedir: C:\computer\java\Git\configRepsitory
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
