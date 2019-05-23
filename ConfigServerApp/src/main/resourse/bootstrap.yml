@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: configServer1
+  security:
+    user:
+      name: admin
+      password: admin
   cloud:
     config:
       server:
