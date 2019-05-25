@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-bus:2.0.2.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.2.BUILD-SNAPSHOT/spring-cloud-bus-2.0.2.BUILD-20190519.105651-690.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.2.BUILD-SNAPSHOT/spring-cloud-bus-2.0.2.BUILD-20190525.015739-735.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.2.BUILD-SNAPSHOT/spring-cloud-bus-2.0.2.BUILD-20190519.105651-690-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.2.BUILD-SNAPSHOT/spring-cloud-bus-2.0.2.BUILD-20190525.015739-735-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.2.BUILD-SNAPSHOT/spring-cloud-bus-2.0.2.BUILD-20190519.105651-690-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.2.BUILD-SNAPSHOT/spring-cloud-bus-2.0.2.BUILD-20190525.015739-735-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

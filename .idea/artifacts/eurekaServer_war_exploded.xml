@@ -49,8 +49,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-eureka-server:1.4.4.RELEASE" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-netflix-eureka-server-2.0.4.BUILD-20190519.000740-679.jar" output-file-name="spring-cloud-starter-netflix-eureka-server-2.0.4.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-server-2.0.4.BUILD-20190519.000447-684.jar" output-file-name="spring-cloud-netflix-eureka-server-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-netflix-eureka-server-2.0.4.BUILD-20190525.000822-726.jar" output-file-name="spring-cloud-starter-netflix-eureka-server-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-server-2.0.4.BUILD-20190525.000534-732.jar" output-file-name="spring-cloud-netflix-eureka-server-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator:2.0.4.RELEASE" />
@@ -70,12 +70,12 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.6" />
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-netflix-archaius-2.0.4.BUILD-20190519.000320-684.jar" output-file-name="spring-cloud-starter-netflix-archaius-2.0.4.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-ribbon-2.0.4.BUILD-20190519.000047-687.jar" output-file-name="spring-cloud-netflix-ribbon-2.0.4.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.4.BUILD-20190519.000022-687.jar" output-file-name="spring-cloud-netflix-archaius-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-netflix-archaius-2.0.4.BUILD-20190525.000409-732.jar" output-file-name="spring-cloud-starter-netflix-archaius-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-ribbon-2.0.4.BUILD-20190525.000141-735.jar" output-file-name="spring-cloud-netflix-ribbon-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.4.BUILD-20190525.000112-735.jar" output-file-name="spring-cloud-netflix-archaius-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.8" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-netflix-ribbon-2.0.4.BUILD-20190519.000327-684.jar" output-file-name="spring-cloud-starter-netflix-ribbon-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-netflix-ribbon-2.0.4.BUILD-20190525.000417-732.jar" output-file-name="spring-cloud-starter-netflix-ribbon-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: com.netflix.ribbon:ribbon:2.2.5" />
           <element id="library" level="project" name="Maven: com.netflix.ribbon:ribbon-transport:2.2.5" />
           <element id="library" level="project" name="Maven: io.reactivex:rxnetty-contexts:0.4.9" />
@@ -91,10 +91,10 @@
           <element id="library" level="project" name="Maven: io.reactivex:rxjava:1.3.8" />
           <element id="library" level="project" name="Maven: com.netflix.ribbon:ribbon-eureka:2.2.5" />
           <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-config/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-config-2.0.4.BUILD-20190416.193738-429.jar" output-file-name="spring-cloud-starter-config-2.0.4.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-2.0.4.BUILD-20190519.011059-668.jar" output-file-name="spring-cloud-starter-2.0.4.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.4.BUILD-SNAPSHOT/spring-cloud-context-2.0.4.BUILD-20190519.011001-672.jar" output-file-name="spring-cloud-context-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-2.0.4.BUILD-20190525.012922-717.jar" output-file-name="spring-cloud-starter-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.4.BUILD-SNAPSHOT/spring-cloud-context-2.0.4.BUILD-20190525.012825-721.jar" output-file-name="spring-cloud-context-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:5.0.7.RELEASE" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.4.BUILD-SNAPSHOT/spring-cloud-commons-2.0.4.BUILD-20190519.011052-668.jar" output-file-name="spring-cloud-commons-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.4.BUILD-SNAPSHOT/spring-cloud-commons-2.0.4.BUILD-20190525.012916-717.jar" output-file-name="spring-cloud-commons-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-rsa:1.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.60" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.60" />
@@ -103,11 +103,11 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.6" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.6" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-eureka:1.4.4.RELEASE" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-2.0.4.BUILD-20190519.000333-684.jar" output-file-name="spring-cloud-starter-netflix-eureka-client-2.0.4.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-core-2.0.4.BUILD-20190519.000126-685.jar" output-file-name="spring-cloud-netflix-core-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-2.0.4.BUILD-20190525.000424-732.jar" output-file-name="spring-cloud-starter-netflix-eureka-client-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-core-2.0.4.BUILD-20190525.000218-733.jar" output-file-name="spring-cloud-netflix-core-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-2.0.4.BUILD-20190519.000307-684.jar" output-file-name="spring-cloud-netflix-eureka-client-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.4.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-2.0.4.BUILD-20190525.000356-732.jar" output-file-name="spring-cloud-netflix-eureka-client-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: com.netflix.eureka:eureka-client:1.9.3" />
           <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.3.7" />
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
