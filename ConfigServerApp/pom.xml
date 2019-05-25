@@ -43,6 +43,7 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-config-server</artifactId>
     </dependency>
+<<<<<<< HEAD
     <!-- springcloud-bus依赖实现配置自动更新，rabbitmq -->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -55,6 +56,11 @@
       <!-- optional=true,依赖不会传递，该项目依赖devtools；之后依赖myboot项目的项目如果想要使用devtools，需要重新引入 -->
       <optional>true</optional>
       <scope>true</scope>
+=======
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-security</artifactId>
+>>>>>>> ed558746eff9d87e0622d571a47052c326831f70
     </dependency>
   </dependencies>
   <dependencyManagement>

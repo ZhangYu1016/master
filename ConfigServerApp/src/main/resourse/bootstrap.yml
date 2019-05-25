@@ -10,6 +10,9 @@ spring:
       additional-paths: src/main/java
     livereload:
       enabled: true
+  security:
+      username: admin
+      password: admin
   cloud:
     config:
       server:
@@ -33,7 +36,7 @@ management:
     web:
       exposure:
         include: "*"
-#是否开启基本的鉴权，默认为true
+#是否开启基本的鉴权，默认为true 西里5号院1单元402
 security:
   basic:
     enabled: false

@@ -11,6 +11,9 @@ spring:
       discovery:
         service-id: configServer1
         enabled: true
+  security:
+    username: admin
+    password: admin
   rabbitmq:
     host: localhost
     port: 5672
@@ -21,6 +24,3 @@ eureka:
     serviceUrl:
       defaultZone: http://server1:8761/eureka/
       #,http://server2:8762/eureka/,http://server3:8763/eureka/
-management:
-  security:
-    enabled: false

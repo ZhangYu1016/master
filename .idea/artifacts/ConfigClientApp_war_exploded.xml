@@ -46,7 +46,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.8.RELEASE" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-config/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-config-2.0.4.BUILD-20190416.193738-429.jar" output-file-name="spring-cloud-starter-config-2.0.4.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-config-2.0.4.BUILD-20190416.193738-429.jar" output-file-name="spring-cloud-starter-config-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.0.4.BUILD-SNAPSHOT/spring-cloud-starter-2.0.4.BUILD-20190525.012922-717.jar" output-file-name="spring-cloud-starter-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.4.BUILD-SNAPSHOT/spring-cloud-context-2.0.4.BUILD-20190525.012825-721.jar" output-file-name="spring-cloud-context-2.0.4.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:5.0.7.RELEASE" />

@@ -3,6 +3,7 @@ server:
 spring:
   application:
     name: configServer1
+<<<<<<< HEAD
   #热部署
   devtools:
     restart:
@@ -10,6 +11,12 @@ spring:
       additional-paths: src/main/java
     livereload:
       enabled: true
+=======
+  security:
+    user:
+      name: admin
+      password: admin
+>>>>>>> ed558746eff9d87e0622d571a47052c326831f70
   cloud:
     config:
       server:
