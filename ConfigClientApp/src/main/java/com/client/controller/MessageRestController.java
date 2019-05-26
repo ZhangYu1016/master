@@ -1,5 +1,6 @@
 package com.client.controller;
 
+import com.util.HttpRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,4 +23,11 @@ public class MessageRestController {
         return "123";
     }
 
+    @RequestMapping(value = "/encrypt")
+    public String encrypt(String key){
+        System.out.println("需加密的明文:"+key);
+        String result = HttpRequest.sendPost("http://localhost:8861/encrypt",key);
+        System.out.println("获得密文:"+result);
+        return result;
+    }
 }
