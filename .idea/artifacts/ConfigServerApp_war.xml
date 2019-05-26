@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ConfigServerApp:war">
+    <output-path>$PROJECT_DIR$/ConfigServerApp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ConfigServerApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="microcloud-config.war">
+      <element id="artifact" artifact-name="ConfigServerApp:war exploded" />
+    </root>
+  </artifact>
+</component>

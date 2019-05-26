@@ -11,16 +11,9 @@ spring:
       discovery:
         service-id: configServer1
         enabled: true
-<<<<<<< HEAD
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-=======
+      #连接security账号密码
       username: admin
       password: admin
->>>>>>> ed558746eff9d87e0622d571a47052c326831f70
 eureka:
   client:
     serviceUrl:
