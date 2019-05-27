@@ -1,0 +1,2 @@
+#强制拉入Git存储库有可能文件被系统占用
+spring.cloud.config.server.git.force-pull: true
