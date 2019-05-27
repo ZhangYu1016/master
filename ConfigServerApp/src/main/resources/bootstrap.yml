@@ -21,7 +21,14 @@ spring:
           uri: https://github.com/ZhangYu1016/configServer.git
           username: 1040601138@qq.com
           password: yu159456
-          #basedir: C:\computer\java\Git\configRepsitory
+          #强制拉入Git存储库
+          force-pull: true
+          skip-ssl-validation: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 #启动Security安全认证
 security:
   basic:
@@ -37,3 +44,8 @@ encrypt:
     alias: testAlias
     #密钥口令，获取密钥
     secret: keypass
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
