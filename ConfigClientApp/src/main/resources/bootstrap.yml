@@ -2,7 +2,7 @@ server:
   port: 8961
 spring:
   application:
-    name: sdcc
+    name: configClient1
   cloud:
     config:
       uri: http://localhost:8861/
@@ -13,6 +13,24 @@ spring:
         enabled: true
       username: admin
       password: admin
+      name: sdcc
+    #开启消息跟踪
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+  #刷新时关闭安全验证
+  security:
+    enabled: false
 eureka:
   client:
     serviceUrl:
