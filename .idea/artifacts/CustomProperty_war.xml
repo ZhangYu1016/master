@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CustomProperty:war">
+    <output-path>$PROJECT_DIR$/CustomProperty/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CustomProperty</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CustomProperty.war">
+      <element id="artifact" artifact-name="CustomProperty:war exploded" />
+    </root>
+  </artifact>
+</component>

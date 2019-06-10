@@ -1,0 +1,24 @@
+1.强制拉入Git存储库有可能文件被系统占用
+    spring.cloud.config.server.git.force-pull: true
+2.在取消服务端安全认证使用Git远程自动刷新配置服务器需要自定义过滤器把请求的Body内容清空，应为服务器无法正常反序列化，否则会报400异常，
+    自定义过滤器需创建CustometRequestWrapper自定义请求装饰类继承HttpServletRequestWrapper,重写getInputStream方法，创建一个0长度的
+    byte数组与ByteArrayInputStream对象，主要操作的是read方法，其它的方法实测没有运行
+3.使用安全认证后，springcloud2.0.X需要自定义一个类(
+    @Configuration
+    @EnableWebSecurity)
+    继承WebSecurityConfigurerAdapter重写configure(HttpSecurity http)方法，添加以下代码
+     // Configure HttpSecurity as needed (e.g. enable http basic).
+     http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER);
+     /关闭打开的csrf保护
+     http.csrf().disable();
+     //注意：为了可以使用 http://${user}:${password}@${host}:${port}/eureka/ 这种方式登录,所以必须是httpBasic,
+     // 如果是form方式,不能使用url格式登录
+     //http.authorizeRequests().anyRequest().authenticated().and().httpBasic();
+4.ALWAYS
+  总是创建HttpSession
+  IF_REQUIRED
+  Spring Security只会在需要时创建一个HttpSession
+  NEVER
+  Spring Security不会创建HttpSession，但如果它已经存在，将可以使用HttpSession
+  STATELESS
+  Spring Security永远不会创建HttpSession，它不会使用HttpSession来获取SecurityContext

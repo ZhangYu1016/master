@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MovieServiceApp:war">
+    <output-path>$PROJECT_DIR$/movieProject/MovieServiceApp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MovieServiceApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MovieServiceApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MovieServiceApp:war exploded" />
+    </root>
+  </artifact>
+</component>
