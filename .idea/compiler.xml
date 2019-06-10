@@ -19,21 +19,41 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="MovieEurekaServerApp" />
+        <module name="MovieApp" />
+        <module name="MovieConfigClientApp" />
+        <module name="MovieConfigServerApp" />
         <module name="ConfigServerApp" />
         <module name="ConfigClientApp" />
         <module name="eurekaServer" />
+        <module name="CustomProperty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ConfigClientApp" target="1.7" />
       <module name="ConfigServerApp" target="1.7" />
+      <module name="CustomProperty" target="1.7" />
+      <module name="demo" target="1.8" />
       <module name="eurekaServer" target="1.8" />
+      <module name="MovieApp" target="1.8" />
+      <module name="MovieConfigClientApp" target="1.7" />
+      <module name="MovieConfigServerApp" target="1.7" />
+      <module name="MovieEurekaServerApp" target="1.8" />
+      <module name="MovieServiceApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ConfigClientApp" options="-parameters" />
       <module name="ConfigServerApp" options="-parameters" />
+      <module name="CustomProperty" options="-parameters" />
+      <module name="MovieApp" options="-parameters" />
+      <module name="MovieConfigClientApp" options="-parameters" />
+      <module name="MovieConfigServerApp" options="-parameters" />
+      <module name="MovieEurekaServerApp" options="-parameters" />
+      <module name="MovieServiceApp" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
     </option>
   </component>

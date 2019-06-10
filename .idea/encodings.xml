@@ -3,6 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ConfigClientApp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConfigServerApp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CustomProperty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movieProject/MovieApp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movieProject/MovieConfigClientApp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movieProject/MovieConfigServerApp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movieProject/MovieEurekaServerApp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movieProject/MovieServiceApp" charset="UTF-8" />
   </component>
 </project>

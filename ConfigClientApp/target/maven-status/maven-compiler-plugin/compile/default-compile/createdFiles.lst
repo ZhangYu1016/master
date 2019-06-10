@@ -1,2 +1,3 @@
+com\util\HttpRequest.class
 com\client\controller\MessageRestController.class
 com\client\ConfigConfigApplication.class

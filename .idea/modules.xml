@@ -4,6 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" filepath="$PROJECT_DIR$/ConfigClientApp/ConfigClientApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" filepath="$PROJECT_DIR$/ConfigServerApp/ConfigServerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomProperty/CustomProperty.iml" filepath="$PROJECT_DIR$/CustomProperty/CustomProperty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movieProject/MovieApp/MovieApp.iml" filepath="$PROJECT_DIR$/movieProject/MovieApp/MovieApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movieProject/MovieConfigClientApp/MovieConfigClientApp.iml" filepath="$PROJECT_DIR$/movieProject/MovieConfigClientApp/MovieConfigClientApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movieProject/MovieConfigServerApp/MovieConfigServerApp.iml" filepath="$PROJECT_DIR$/movieProject/MovieConfigServerApp/MovieConfigServerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movieProject/MovieEurekaServerApp/MovieEurekaServerApp.iml" filepath="$PROJECT_DIR$/movieProject/MovieEurekaServerApp/MovieEurekaServerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/repository.iml" filepath="$PROJECT_DIR$/.idea/repository.iml" />
     </modules>
