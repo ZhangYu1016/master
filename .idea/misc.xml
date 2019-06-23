@@ -25,7 +25,8 @@
         <option value="$PROJECT_DIR$/ConfigServerApp/pom.xml" />
         <option value="$PROJECT_DIR$/CustomProperty/pom.xml" />
         <option value="$PROJECT_DIR$/movieProject/MovieConfigClientApp/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/movieProject/MovieServiceApp/pom.xml" />
+        <option value="$PROJECT_DIR$/MovieServiceApp/pom.xml" />
       </list>
     </option>
   </component>

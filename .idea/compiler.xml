@@ -19,14 +19,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
-        <module name="MovieEurekaServerApp" />
-        <module name="MovieApp" />
-        <module name="MovieConfigClientApp" />
-        <module name="MovieConfigServerApp" />
+        <module name="eurekaServer" />
         <module name="ConfigServerApp" />
         <module name="ConfigClientApp" />
-        <module name="eurekaServer" />
+        <module name="MovieServiceApp" />
         <module name="CustomProperty" />
       </profile>
     </annotationProcessing>
@@ -34,7 +30,6 @@
       <module name="ConfigClientApp" target="1.7" />
       <module name="ConfigServerApp" target="1.7" />
       <module name="CustomProperty" target="1.7" />
-      <module name="demo" target="1.8" />
       <module name="eurekaServer" target="1.8" />
       <module name="MovieApp" target="1.8" />
       <module name="MovieConfigClientApp" target="1.7" />
@@ -53,7 +48,6 @@
       <module name="MovieConfigServerApp" options="-parameters" />
       <module name="MovieEurekaServerApp" options="-parameters" />
       <module name="MovieServiceApp" options="-parameters" />
-      <module name="demo" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
     </option>
   </component>
