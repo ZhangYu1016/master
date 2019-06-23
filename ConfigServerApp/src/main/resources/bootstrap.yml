@@ -29,10 +29,6 @@ spring:
     port: 5672
     username: guest
     password: guest
-#启动Security安全认证
-security:
-  basic:
-    enabled: true
 eureka:
   client:
     service-url:

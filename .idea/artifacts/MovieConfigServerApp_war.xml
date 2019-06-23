@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MovieConfigServerApp:war">
+    <output-path>$PROJECT_DIR$/movieProject/MovieConfigServerApp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MovieConfigServerApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="microcloud-config.war">
+      <element id="artifact" artifact-name="MovieConfigServerApp:war exploded" />
+    </root>
+  </artifact>
+</component>

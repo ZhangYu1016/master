@@ -3,7 +3,13 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ConfigClientApp" />
     <file type="web" url="file://$PROJECT_DIR$/ConfigServerApp" />
+    <file type="web" url="file://$PROJECT_DIR$/CustomProperty" />
     <file type="web" url="file://$PROJECT_DIR$/eurekaServer" />
+    <file type="web" url="file://$PROJECT_DIR$/movieProject/MovieApp" />
+    <file type="web" url="file://$PROJECT_DIR$/movieProject/MovieConfigClientApp" />
+    <file type="web" url="file://$PROJECT_DIR$/movieProject/MovieConfigServerApp" />
+    <file type="web" url="file://$PROJECT_DIR$/movieProject/MovieEurekaServerApp" />
+    <file type="web" url="file://$PROJECT_DIR$/movieProject/MovieServiceApp" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -11,9 +17,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/movieProject/MovieEurekaServerApp/pom.xml" />
+        <option value="$PROJECT_DIR$/movieProject/MovieConfigServerApp/pom.xml" />
+        <option value="$PROJECT_DIR$/movieProject/MovieApp/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaServer/pom.xml" />
-        <option value="$PROJECT_DIR$/ConfigServerApp/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigClientApp/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServerApp/pom.xml" />
+        <option value="$PROJECT_DIR$/CustomProperty/pom.xml" />
+        <option value="$PROJECT_DIR$/movieProject/MovieConfigClientApp/pom.xml" />
+        <option value="$PROJECT_DIR$/movieProject/MovieServiceApp/pom.xml" />
+        <option value="$PROJECT_DIR$/MovieServiceApp/pom.xml" />
       </list>
     </option>
   </component>

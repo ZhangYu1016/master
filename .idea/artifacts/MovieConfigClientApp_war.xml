@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MovieConfigClientApp:war">
+    <output-path>$PROJECT_DIR$/movieProject/MovieConfigClientApp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MovieConfigClientApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MovieConfigClientApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MovieConfigClientApp:war exploded" />
+    </root>
+  </artifact>
+</component>
